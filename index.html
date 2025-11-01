@@ -4,89 +4,84 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Eve Antikidis — Aerospace & Defence Sales Director | Tata Consultancy Services</title>
-  <meta name="description" content="Eve Antikidis — Aerospace & Defence Sales Director at Tata Consultancy Services. Contact card with quick add-to-contacts link.">
-  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="description" content="Eve Antikidis — Aerospace & Defence Sales Director at Tata Consultancy Services. One-tap Add to Contacts.">
   <style>
     :root {
-      --bg: #f6f8fb;
+      --bg: #0b4ea2;
+      --card: #ffffff;
       --fg: #0f172a;
       --muted: #475569;
       --accent: #0ea5e9;
-      --card: #ffffff;
       --border: #e2e8f0;
     }
     * { box-sizing: border-box; }
     body {
-      margin: 0; padding: 0;
+      margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
-      background: var(--bg); color: var(--fg);
+      background: var(--bg);
+      color: var(--fg);
     }
-    .wrap {
-      max-width: 720px; margin: 0 auto; padding: 24px;
-    }
+    .wrap { max-width: 880px; margin: 0 auto; padding: 28px 18px 60px; }
     .card {
-      background: var(--card); border: 1px solid var(--border);
-      border-radius: 16px; padding: 28px; box-shadow: 0 10px 24px rgba(15,23,42,0.06);
+      background: var(--card);
+      border-radius: 22px;
+      border: 1px solid var(--border);
+      box-shadow: 0 18px 40px rgba(0,0,0,.18);
+      overflow: hidden;
     }
-    h1 { font-size: 1.8rem; margin: 0 0 4px 0; }
-    .sub { color: var(--muted); margin: 0 0 16px 0; line-height: 1.4; }
-    .grid {
-      display: grid; grid-template-columns: 1fr; gap: 14px; margin-top: 18px;
+    .hero { padding: 28px; text-align: center; background: linear-gradient(180deg, rgba(255,255,255,0.0), rgba(255,255,255,0.2)); }
+    .photo {
+      width: 220px; height: 220px; border-radius: 50%;
+      object-fit: cover; border: 6px solid #ffffff;
+      box-shadow: 0 8px 20px rgba(0,0,0,.18); background:#fff;
     }
-    @media (min-width: 520px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+    h1 { margin: 14px 0 6px; font-size: 1.9rem; }
+    .sub { margin: 0; color: var(--muted); }
+    .content { padding: 18px 24px 24px; }
+    .row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 14px; }
     a.btn {
       display: inline-flex; align-items: center; justify-content: center;
-      text-decoration: none;
-      border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px;
-      background: #fff; color: var(--fg); font-weight: 600;
-      transition: transform 0.06s ease, box-shadow 0.12s ease;
+      padding: 12px 14px; border-radius: 12px; text-decoration: none;
+      border: 1px solid var(--border); background: #fff; color: var(--fg); font-weight: 600;
+      transition: transform .06s ease, box-shadow .12s ease;
     }
-    a.btn:hover { box-shadow: 0 8px 18px rgba(15,23,42,0.08); transform: translateY(-1px); }
+    a.btn:hover { transform: translateY(-1px); box-shadow: 0 10px 20px rgba(0,0,0,.08); }
     a.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
-    .row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
-    .meta { margin-top: 12px; color: var(--muted); }
-    footer { margin-top: 18px; color: var(--muted); font-size: 0.9rem; }
-    code { background: #f1f5f9; padding: 2px 6px; border-radius: 6px; }
+    .meta { margin-top: 10px; color: var(--muted); }
+    .logo-wrap { text-align: center; padding: 14px 0 22px; background: #fff; }
+    .logo-wrap img { width: 140px; height: auto; opacity: .9; }
+    footer { text-align: center; margin-top: 16px; color: #eaf2ff; font-size: .95rem; }
   </style>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Eve Antikidis",
-    "jobTitle": "Aerospace & Defence Sales Director",
-    "worksFor": {"@type":"Organization","name":"Tata Consultancy Services"},
-    "email": "mailto:eve.antikidis@tcs.com",
-    "telephone": "+33 6 12 96 05 86",
-    "url": "https://www.linkedin.com/in/your-linkedin-handle"
-  }
-  </script>
 </head>
 <body>
   <div class="wrap">
-    <div class="card" itemscope itemtype="https://schema.org/Person">
-      <h1 itemprop="name">Eve Antikidis</h1>
-      <p class="sub"><span itemprop="jobTitle">Aerospace & Defence Sales Director</span> — <span itemprop="worksFor">Tata Consultancy Services</span></p>
-
-      <div class="row">
-        <a class="btn primary" href="./eve_antikidis.vcf" type="text/vcard">Add to Contacts (VCF)</a>
-        <a class="btn" href="tel:+33612960586">Call</a>
-        <a class="btn" href="mailto:eve.antikidis@tcs.com">Email</a>
-        <a class="btn" href="https://www.linkedin.com/in/your-linkedin-handle" target="_blank" rel="noopener">LinkedIn</a>
+    <div class="card">
+      <div class="hero">
+        <img class="photo" src="./assets/eve-photo.jpg" alt="Eve Antikidis headshot" width="220" height="220" loading="eager">
+        <h1>Eve Antikidis</h1>
+        <p class="sub">Aerospace & Defence Sales Director — Tata Consultancy Services</p>
       </div>
-
-      <p class="meta">
-        <strong>Work:</strong> Tata Consultancy Services<br>
-        <strong>Email:</strong> <a href="mailto:eve.antikidis@tcs.com">eve.antikidis@tcs.com</a><br>
-        <strong>Phone:</strong> <a href="tel:+33612960586">+33 6 12 96 05 86</a>
-      </p>
-
-      <hr style="border:none;border-top:1px solid var(--border);margin:18px 0;">
-      <p>Short bio: Senior business leader in aerospace & defence transformation, partnering with OEMs and tier‑1s on PLM modernization, AI/GenAI and large global delivery programs. (Replace with your own text.)</p>
-
-      <footer>
-        Tip: scan a QR that points to this page URL to share your profile easily. iPhone and Android both support opening <code>.vcf</code> to add a contact.
-      </footer>
+      <div class="content">
+        <div class="row">
+          <a class="btn primary" href="./eve_antikidis.vcf" type="text/vcard">Add to Contacts (VCF)</a>
+          <a class="btn" href="mailto:eve.antikidis@tcs.com">Email</a>
+          <a class="btn" href="tel:+33612960586">Call</a>
+          <a class="btn" href="https://www.linkedin.com/in/eve-antikidis/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <p class="meta">
+          <strong>Work:</strong> Tata Consultancy Services<br>
+          <strong>Email:</strong> <a href="mailto:eve.antikidis@tcs.com">eve.antikidis@tcs.com</a><br>
+          <strong>Phone:</strong> <a href="tel:+33612960586">+33 6 12 96 05 86</a>
+        </p>
+        <p style="margin-top:14px">Short bio: Senior business leader in aerospace & defence transformation, partnering with OEMs and tier‑1s on PLM modernization, AI/GenAI, and global delivery programs. (Replace with your bio.)</p>
+      </div>
+      <div class="logo-wrap">
+        <img src="./assets/tcs-logo.png" alt="TCS logo">
+      </div>
     </div>
+    <footer>
+      Scan a QR pointing to this page to share your contact card easily. iPhone & Android both open <code>.vcf</code> for one‑tap add to contacts.
+    </footer>
   </div>
 </body>
 </html>
